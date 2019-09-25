@@ -1,0 +1,16 @@
+Ubunte命令
+
+sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
+校准时间为上海
+date
+查看
+
+netstat -a
+查看已经连接的服务端口
+netstat -ap
+查看所有的服务端口
+netstat -ap | grep 8080
+查看指定端口，可以结合grep命令
+
+apt-get install traceroute
+安装traceroute
